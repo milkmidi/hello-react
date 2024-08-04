@@ -1,0 +1,12 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border: 1px solid black;
+}
+.box.style-green {
+  background-color: green;
+}
+.box[data-green="true"] {
+  background-color: green;
+}
