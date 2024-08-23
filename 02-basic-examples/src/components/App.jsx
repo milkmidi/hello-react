@@ -11,7 +11,7 @@ import Example11 from './11-1A2B';
 import Example17 from './17-component-communication';
 
 const App = () => {
-  const ExampleComponent = Example11;
+  const ExampleComponent = Example02;
   return (
     <div className="app">
       <ExampleComponent />

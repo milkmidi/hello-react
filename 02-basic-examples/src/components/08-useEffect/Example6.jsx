@@ -6,7 +6,7 @@ const UseEffect06Clock = () => {
   React.useEffect(() => {
     const timeId = setInterval(() => {
       console.log('setInterval', count);
-      setCount(count + 1); // Wrong;
+      setCount(count + 1);
       /* setCount((prev) => {
         // correct
         return prev + 1;

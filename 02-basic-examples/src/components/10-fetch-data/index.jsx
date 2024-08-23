@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-// import TodoItem from './TodoItem'; TODO 2
+import TodoItem from './TodoItem';
 
 const FetchAPIExample = () => {
   const [data, setData] = useState([]);
