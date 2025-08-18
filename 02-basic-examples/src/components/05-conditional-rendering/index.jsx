@@ -15,6 +15,10 @@ const Example5 = () => {
       <button className="my-btn" data-active={isLoggedIn} onClick={atClick}>
         {isLoggedIn ? '登出' : '登入'}
       </button>
+      {true}
+      {false}
+      {null}
+      {undefined}
       {/* TODO */}
       {isLoggedIn ? <UserGreeting /> : <GuestGreeting />}
       {isLoggedIn && <UserGreeting />}

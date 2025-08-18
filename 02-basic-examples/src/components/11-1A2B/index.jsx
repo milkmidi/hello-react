@@ -39,10 +39,10 @@ const Question1A2B = () => {
   return (
     <section data-name="1A2B">
       <input
-        type="number"
         className="my-input"
-        value={input}
         maxLength={4}
+        type="number"
+        value={input}
         onChange={(e) => {
           setInput(e.target.value);
         }}

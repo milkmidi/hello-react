@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Example2 = () => {
+const Example = () => {
   const [isGreen, setGreen] = React.useState(false);
   const atClick = () => {
     setGreen(!isGreen);
@@ -11,7 +11,7 @@ const Example2 = () => {
     boxClassName += ' style-green';
   }
   return (
-    <section data-name="Example2">
+    <section data-name="B">
       <button className="my-btn" onClick={atClick}>
         isGreen
       </button>
@@ -19,4 +19,4 @@ const Example2 = () => {
     </section>
   );
 };
-export default Example2;
+export default Example;

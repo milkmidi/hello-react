@@ -12,9 +12,9 @@ const FormRadio = () => {
       <p>gender:{gender}</p>
       <label className="me-3">
         <input
-          name="gender"
           className="my-radio"
           checked={gender === '1'}
+          name="gender"
           type="radio"
           value="1"
           onChange={atRadioChange}
@@ -23,9 +23,9 @@ const FormRadio = () => {
       </label>
       <label>
         <input
-          name="gender"
           className="my-radio"
           checked={gender === '0'}
+          name="gender"
           type="radio"
           value="0"
           onChange={atRadioChange}

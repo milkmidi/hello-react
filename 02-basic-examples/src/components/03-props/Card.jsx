@@ -5,8 +5,7 @@ const Card = (props) => {
   const { img, name, children } = props;
   return (
     <div className="category-item">
-      <img className="category-item__img" src={img} alt={name} />
-      {/* <img > Error,  JSX 所有的 tag 都要 close */}
+      <img className="category-item__img" alt={name} src={img} />
       <div className="category-item__name">{name}</div>
       <div className="category-item__quote">{children}</div>
     </div>

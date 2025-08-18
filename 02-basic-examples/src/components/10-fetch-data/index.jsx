@@ -1,10 +1,10 @@
 import { useEffect, useState } from 'react';
-import TodoItem from './TodoItem';
+import ProductItem from './ProductItem';
 
 const FetchAPIExample = () => {
   const [data, setData] = useState([]);
 
-  // TODO 1
+  // TODO
   useEffect(() => {
     fetch('https://jsonplaceholder.typicode.com/todos')
       .then((res) => res.json())
@@ -14,19 +14,11 @@ const FetchAPIExample = () => {
   }, []);
   return (
     <section data-name="Example10">
-      {data.map((item) => {
-        return (
-          <div key={item.id} className="border">
-            <p>{item.title}</p>
-            <small>{item.id}</small>
-          </div>
-        );
-      })}
-      {/* 
-      {data.map((item) => {
-        return <TodoItem key={item.id} id={item.id} title={item.title} />;
-      })}
-       */}
+      <div className="grid grid-cols-4 gap-4">
+        {data.map((item) => {
+          return <ProductItem key={item.id} id={item.id} title={item.title} />;
+        })}
+      </div>
     </section>
   );
 };

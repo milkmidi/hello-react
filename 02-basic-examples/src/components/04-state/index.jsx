@@ -15,7 +15,7 @@ const Counter = () => {
     setCount(count + 1);
   };
   return (
-    <div className="border-2 p-4 border-black">
+    <div className="border-2 border-black p-4">
       <h2 className="count">count:{count}</h2>
       <button className="button" onClick={atClick}>
         increment

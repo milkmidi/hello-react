@@ -8,8 +8,8 @@ const FormSelect = () => {
   return (
     <section data-name="FormSelect">
       <p>select:{select}</p>
-      <select value={select} onChange={atSelectChange} className="my-input">
-        <option value="" disabled>
+      <select className="my-input" value={select} onChange={atSelectChange}>
+        <option disabled value="">
           Please select
         </option>
         <option value="React">React</option>

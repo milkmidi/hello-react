@@ -19,8 +19,8 @@ const FormInput = () => {
       <p>name:{name}</p>
       {/* TODO */}
       <input
-        type="text"
         className="my-input"
+        type="text"
         value={name}
         onChange={atChange}
       />

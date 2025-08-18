@@ -1,6 +1,6 @@
-import Example1 from './Example1';
-import Example3 from './Example3';
-import Example6 from './Example6';
+import ExampleA from './A';
+import ExampleB from './B';
+import ExampleC from './C';
 
 // areHookInputsEquals
 // https://github.com/facebook/react/blob/main/packages/react-reconciler/src/ReactFiberHooks.new.js#L326-L371
@@ -8,9 +8,9 @@ import Example6 from './Example6';
 const Example = () => {
   return (
     <section data-name="Example08">
-      <Example1 />
-      {/* <Example3 /> */}
-      {/* <Example6 /> */}
+      <ExampleA />
+      {/* <ExampleB /> */}
+      {/* <ExampleC /> */}
     </section>
   );
 };

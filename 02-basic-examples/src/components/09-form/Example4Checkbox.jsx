@@ -28,11 +28,11 @@ const FormCheckbox = () => {
         return (
           <label key={label} className="me-2">
             <input
-              data-index={index}
               className="my-checkbox"
+              data-index={index}
+              checked={checked}
               type="checkbox"
               value={label}
-              checked={checked}
               onChange={atInputChange}
             />
             {label}
